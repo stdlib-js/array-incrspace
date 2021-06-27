@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-incrspace",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate a linearly spaced numeric array using a provided increment.",
   "license": "Apache-2.0",
   "author": {
