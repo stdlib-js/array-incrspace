@@ -130,6 +130,23 @@ console.log( out.join( '\n' ) );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/array/linspace`][@stdlib/array/linspace]: generate a linearly spaced numeric array.
+-   [`@stdlib/array/logspace`][@stdlib/array/logspace]: generate a logarithmically spaced numeric array.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -186,6 +203,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-incrspace/main/LICENSE
 
 [@stdlib/math/base/special/roundn]: https://github.com/stdlib-js/math-base-special-roundn
+
+<!-- <related-links> -->
+
+[@stdlib/array/linspace]: https://github.com/stdlib-js/array-linspace
+
+[@stdlib/array/logspace]: https://github.com/stdlib-js/array-logspace
+
+<!-- </related-links> -->
 
 </section>
 
