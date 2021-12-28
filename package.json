@@ -37,6 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/array-base-incrspace": "^0.0.x",
     "@stdlib/assert-is-number": "^0.0.x",
     "@stdlib/constants-uint32-max": "^0.0.x",
     "@stdlib/math-base-assert-is-nan": "^0.0.x",
