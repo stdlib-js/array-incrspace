@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.incrspace;
+})();
 })();
 </script>
 ```
@@ -121,6 +123,7 @@ var arr = incrspace( 0, 11, 2 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-incrspace@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 var out;
 
 // Default behavior:
@@ -146,6 +149,7 @@ console.log( '\nDecremented values:' );
 out = incrspace( 10, 0, -2 );
 console.log( out.join( '\n' ) );
 
+})();
 })();
 </script>
 </body>
@@ -240,13 +244,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-incrspace/main/LICENSE
 
-[@stdlib/math/base/special/roundn]: https://github.com/stdlib-js/math-base-special-roundn/tree/umd
+[@stdlib/math/base/special/roundn]: https://github.com/stdlib-js/math-base-special-roundn/tree/umd/tree/umd
 
 <!-- <related-links> -->
 
-[@stdlib/array/linspace]: https://github.com/stdlib-js/array-linspace/tree/umd
+[@stdlib/array/linspace]: https://github.com/stdlib-js/array-linspace/tree/umd/tree/umd
 
-[@stdlib/array/logspace]: https://github.com/stdlib-js/array-logspace/tree/umd
+[@stdlib/array/logspace]: https://github.com/stdlib-js/array-logspace/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
