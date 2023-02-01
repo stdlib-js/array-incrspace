@@ -24,38 +24,30 @@ limitations under the License.
 
 > Generate a linearly spaced numeric array using a provided increment.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-incrspace
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-incrspace = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-incrspace@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var incrspace = require( 'path/to/vendor/umd/array-incrspace/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-incrspace@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.incrspace;
-})();
-</script>
+var incrspace = require( '@stdlib/array-incrspace' );
 ```
 
 #### incrspace( start, stop\[, increment] )
@@ -114,13 +106,8 @@ var arr = incrspace( 0, 11, 2 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-incrspace@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var incrspace = require( '@stdlib/array-incrspace' );
 var out;
 
 // Default behavior:
@@ -145,11 +132,6 @@ console.log( out.join( '\n' ) );
 console.log( '\nDecremented values:' );
 out = incrspace( 10, 0, -2 );
 console.log( out.join( '\n' ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -197,7 +179,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -240,13 +222,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-incrspace/main/LICENSE
 
-[@stdlib/math/base/special/roundn]: https://github.com/stdlib-js/math-base-special-roundn/tree/umd
+[@stdlib/math/base/special/roundn]: https://github.com/stdlib-js/math-base-special-roundn
 
 <!-- <related-links> -->
 
-[@stdlib/array/linspace]: https://github.com/stdlib-js/array-linspace/tree/umd
+[@stdlib/array/linspace]: https://github.com/stdlib-js/array-linspace
 
-[@stdlib/array/logspace]: https://github.com/stdlib-js/array-logspace/tree/umd
+[@stdlib/array/logspace]: https://github.com/stdlib-js/array-logspace
 
 <!-- </related-links> -->
 
