@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-incrspace@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-incrspace/tags). For example,
+
+```javascript
 import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-incrspace@v0.2.0-deno/mod.js';
 ```
 
@@ -102,7 +107,7 @@ var arr = incrspace( 0, 11, 2 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-incrspace@v0.2.0-deno/mod.js';
+import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-incrspace@deno/mod.js';
 var out;
 
 // Default behavior:
