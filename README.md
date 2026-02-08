@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-incrspace@deno/mod.js';
+import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-incrspace@v0.2.3-deno/mod.js';
 ```
 
 #### incrspace( start, stop\[, increment] )
@@ -102,7 +102,7 @@ var arr = incrspace( 0, 11, 2 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-incrspace@deno/mod.js';
+import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-incrspace@v0.2.3-deno/mod.js';
 var out;
 
 // Default behavior:
